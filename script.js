@@ -13,7 +13,9 @@ function getMenu () {
             <h3>${item.name}</h3>
             <p>Price: $${item.price}</p>
           </span>
-          <i class="fa-solid fa-plus"></i>
+          <a>
+            <i class="fa-solid fa-plus"></i>
+          </a>
         </div>
       `;
 

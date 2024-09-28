@@ -274,5 +274,9 @@ body {
 }
 
 .tag i {
+    background-color: #363A43;
     color: #878787;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
 }
