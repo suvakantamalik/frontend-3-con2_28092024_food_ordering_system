@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome Link -->
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="https://s3-alpha-sig.figma.com/img/6c30/5666/5f8945b573189c004e90e2728a92eb63?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RgQzINSeKdZS5rCHgFDd3ujXlMxDI3rEg5uVZksLyemYz~Dgnr9s--6v9JXOCdv-SMzD9uUNaN3~XS483NOC62SvbTXSZL9IBFXlL3rBjO4u8-JcQDjHgYE~V3ujtaJzaqry4u9elgi1KcL20uX37HtOEYda-8tic5Jlc8cadgl-NYSIX8xo-TatVeMFma3gS6WBkZ20wY71jRShPdL90CT7wy1Dqb2JgSfsWqhs3NnOfvSw~u6inwowPAjBLhfWO75fEWbRclqwVvSMLPbkJOBc8gsAjMLrjpM9q0tYNozN6~-0NLU2bFmnd12QRAZcsSOEHvh3x047uHVeiqDn~g__" alt="">
+                <h3>Restaurant Menu</h3>
+                <p>"Your Favorite Food, Delivered Fresh!"</p>
+            </div>
+            <div class="quickLinks menuStyle">
+                <span class="hd"><h3>Quick Links</h3></span>
+                <ul>
+                    <li>1. <a href="#">Home</a></li>
+                    <li>2. <a href="#">Your Orders</a></li>
+                    <li>3. <a href="#">Wallet</a></li>
+                    <li>4. <a href="#">Profile</a></li>
+                    <li>5. <a href="#">Logout</a></li>
+                </ul>
+            </div>
+            <div class="aboutUs">
+                <span class="hd"><h3>More About Us</h3></span>
+                
+                <ul>
+                    <li>1. <a href="#">Our Blog</a></li>
+                    <li>2. <a href="#">Upcoming Dishes</a></li>
+                    <li>3. <a href="#">Our Story</a></li>
+                    <li>4. <a href="#">Social Media Links</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="topbar">
+                <div class="searchBar">
+                    <span class="searchIcon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" placeholder="Search Food Item" />
+                </div>
+                <button class="signupButton">Signup</button>
+                <button class="loginButton">Login</button>
+                <div class="profileImage">
+                    <a>
+                        <img src="https://s3-alpha-sig.figma.com/img/6c30/5666/5f8945b573189c004e90e2728a92eb63?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RgQzINSeKdZS5rCHgFDd3ujXlMxDI3rEg5uVZksLyemYz~Dgnr9s--6v9JXOCdv-SMzD9uUNaN3~XS483NOC62SvbTXSZL9IBFXlL3rBjO4u8-JcQDjHgYE~V3ujtaJzaqry4u9elgi1KcL20uX37HtOEYda-8tic5Jlc8cadgl-NYSIX8xo-TatVeMFma3gS6WBkZ20wY71jRShPdL90CT7wy1Dqb2JgSfsWqhs3NnOfvSw~u6inwowPAjBLhfWO75fEWbRclqwVvSMLPbkJOBc8gsAjMLrjpM9q0tYNozN6~-0NLU2bFmnd12QRAZcsSOEHvh3x047uHVeiqDn~g__" alt="Profile Image" />
+                    </a>
+                </div>
+            </div>
+            <div class="adds">
+                <img src="https://s3-alpha-sig.figma.com/img/bfaa/d74b/76ba1256d10f8af33fd5e08b7574087c?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L5QzgdUvZU8-sGNYJozvd-u06LLcSlnNznxbkJCtUlyflUvd7-WEscCeaqGiqmqrLh9PaZp9cDqEEULjr~XNgwCIVlNRgbxCEMLaeVeoTDxM~1x-FDsDo4M3hgag5JinCNr2AHbl5IScXqIzZjz0pNc3cHmZBhGHZFE3iuUxUOvbdVJsBWxsIEtOZLsN0RTJttAS0yKW6294ILDX5TdyydXND55gvkAztEQu61baUl0YBpRg7zf1ko7NUFlkIlEgYuEhwP84gvDXo6MBadFxXR1QE0F8fr~z~cVoYCJvZ3yBUxDyrwdTjmaDKynaUCTPAv5DWVUEDgEiZHI9gEsgmw__" alt="">
+            </div>
+            <div class="item">
+                <h3>Menu</h3>
+                <div class="menu" id="menu"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
